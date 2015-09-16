@@ -1,9 +1,17 @@
 /*******************
+  Default
+*******************/
+a {
+	text-decoration: none;
+}
+
+
+/*******************
   Buttons
 *******************/
 .btn {
-	width: 140px;
-	padding: 12px 37px;
+	width: 120px;
+	padding: 12px 21px;
 	border-radius: 2px;
 	background: #529ecc;
 	color: #fff;
@@ -16,6 +24,7 @@
 	cursor: pointer;
 }
 
+.btn:focus,
 .btn:hover {
 	background: rgba(82,158,204,0.8);
 }
@@ -26,6 +35,24 @@
 *******************/
 .hide {
 	display: none !important;
+}
+
+.container {
+	margin: 0 auto;
+  	max-width: 1280px;
+ 	width: 90%;
+}
+
+@media only screen and (min-width : 601px) {
+	.container {
+		width: 85%;
+	}
+}
+
+@media only screen and (min-width : 993px) {
+	.container {
+		width: 70%;
+	}
 }
 
 .center-container {
